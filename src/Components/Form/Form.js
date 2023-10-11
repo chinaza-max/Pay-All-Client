@@ -9,7 +9,6 @@ import Swal from 'sweetalert2'
 
 const domain="http://localhost:5000"
 
-
 export default function Form() {
 
   const [service,setMyService]=useState([]);
