@@ -1,0 +1,42 @@
+.quickPay-section{
+    @media (max-width:997px) {
+        padding-top: 20px;
+    }
+    .form-select{
+        padding: 15px 25px;
+        border-radius: 30px;
+        border: 1px solid #e0e0e0;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    #select1:focus{
+        border: 1px solid #155BD5;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+   
+    .quickPay-form{
+       
+        .row .label{
+            display: block;
+            text-align: left;
+            padding-bottom: 5px;
+            color: #6d6c6c;
+        }
+    }
+    #alert{
+        text-align: center;
+        color: red;
+        border-radius: 5%;
+        
+    }
+    #confirmation{
+        text-align: center;
+        color: green;
+    }
+}
+
+//#155BD5
+
+

@@ -1,0 +1,14 @@
+.carousel-container{
+    div{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        img{
+            height: 70px;
+            display: block;
+            margin: 0 auto;
+            @media (max-width:480px) {
+                height: 50px;
+            }
+        }
+    }
+}
